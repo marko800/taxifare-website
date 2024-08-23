@@ -58,6 +58,6 @@ if st.button('Get fare'):
     st.write('Calculating...')
     response=requests.get(url, params=params)
 
-    st.write(f" ### Your estimated price is:  __{response.json()['fare']} USD__")
+    st.write(f"Your estimated price is:  __{response.json()['fare']} USD__")
 else:
     pass
