@@ -42,7 +42,7 @@ params={ "pickup_datetime" : pdt_str,
          "passenger_count" : passenger_count }
 
 
-url = 'https://taxifare.lewagon.ai/predict'
+url = 'https://taxifare-1077246469638.europe-west1.run.app//predict'
 
 #if url == 'https://taxifare.lewagon.ai/predict':
 #   st.markdown('Maybe you want to use your own API for the prediction, not the one provided by Le Wagon...')
